@@ -1,0 +1,10 @@
+#!/bin/sh
+
+xte 'mousermove 0 -15'
+
+# xautomation's command
+# xte 'key [KEY]'
+# xte 'keydown [KEY]'
+# xte 'keyup [KEY]'
+# xte 'mousemove [X][Y]'
+# xte 'mouseclick [Button]

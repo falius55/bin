@@ -1,0 +1,3 @@
+#!/bin/sh
+
+java -jar "$HOME/local/bin/plantuml.8027.jar" $1

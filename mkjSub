@@ -1,0 +1,10 @@
+#!/bin/sh
+if [ $#  = 1 ];
+then
+echo "import java.util.*;
+public class $1{
+	// constructa
+	public $1(){
+		}
+	}" > $PWD/$1.java
+fi

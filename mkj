@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# make frame of java file in currentdirectory.
+# argument becames classname and filename.
+if [ $#  = 1 ];
+then
+echo "import java.util.*;
+public class ${1}{
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		
+		}
+	}" > $PWD/${1}.java
+
+vim ${1}.java
+fi

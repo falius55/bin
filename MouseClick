@@ -1,0 +1,10 @@
+#!/bin/sh
+
+xte 'mouseclick 1'
+
+# xautomation's command
+# xte 'key [KEY]'
+# xte 'keydown [KEY]'
+# xte 'keyup [KEY]'
+# xte 'mousemove [X][Y]'
+#xte 'mousemove 2000 1200'

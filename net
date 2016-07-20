@@ -1,0 +1,15 @@
+#!/bin/bash
+
+case $1 in
+mail)
+w3m http://mail.google.com/
+;;
+google)
+w3m http://google.com
+;;
+java)
+w3m http://www5c.biglobe.ne.jp/~ecb/java/java00.html
+;;
+*)
+;;
+esac

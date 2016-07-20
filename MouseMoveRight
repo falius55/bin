@@ -1,0 +1,2 @@
+#!/bin/sh
+xte 'mousermove 15 0'

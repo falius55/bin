@@ -1,0 +1,15 @@
+#!/bin/sh
+
+if [ $#  = 1 ];
+then
+echo "<!DOCTYPE html>
+<html lang=\"ja\">
+	<head>
+		<meta charset=\"utf8\">
+		<title></title>
+	</head>
+	<body>
+	</body>
+</html>" >> ${1}.html
+vim ${1}.html
+fi

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+xte "keydown Alt_L"
+xte "key F7"
+xte "keyup Alt_L"
+
+xte 'mousermove 0 -15'
+
+#sleep 3
+xte "key Return"

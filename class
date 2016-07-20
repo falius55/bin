@@ -1,0 +1,15 @@
+#!/bin/bash
+#linenum.sh
+	list=("$HOME/programing/java/"
+			"$HOME/programing/java/*/")
+	for key in ${list[@]};
+do
+if [ -e ${key}${1}.class ];
+then
+cd ${key}
+#echo "start:${key}$1.class"
+java $1 $2
+#echo "Done $1 program"
+break
+fi
+done

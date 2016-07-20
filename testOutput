@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "以下の内容を読み込みました"
+read a b
+echo $a $b

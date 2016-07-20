@@ -1,0 +1,17 @@
+#!/bin/sh
+
+xte 'keydown Alt_L'
+xte 'key F7'
+xte 'keyup Alt_L'
+read c
+xte 'keydown Control_L'
+xte 'key M'
+xte 'keyup Control_L'
+xte 'mousermove 0 -15'
+
+# xautomation's command
+# xte 'key [KEY]'
+# xte 'keydown [KEY]'
+# xte 'keyup [KEY]'
+# xte 'mousemove [X][Y]'
+# xte 'mouseclick [Button]
